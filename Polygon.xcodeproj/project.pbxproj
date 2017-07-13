@@ -1,0 +1,318 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		104658E41F0F4D4E00DEA11B /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 104658E31F0F4D4E00DEA11B /* main.cpp */; };
+		104658EC1F0F4D6200DEA11B /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 104658EB1F0F4D6200DEA11B /* OpenGL.framework */; };
+		104658EE1F0F4D6700DEA11B /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 104658ED1F0F4D6700DEA11B /* IOKit.framework */; };
+		104658F01F0F4D6D00DEA11B /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 104658EF1F0F4D6D00DEA11B /* Cocoa.framework */; };
+		104658F21F0F4D7300DEA11B /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 104658F11F0F4D7300DEA11B /* CoreVideo.framework */; };
+		104658F41F0F4D8300DEA11B /* libglfw3.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 104658F31F0F4D8300DEA11B /* libglfw3.a */; };
+		104658F61F0F4D8C00DEA11B /* libGLEW.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 104658F51F0F4D8C00DEA11B /* libGLEW.a */; };
+		104658F91F0F54EF00DEA11B /* Shader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 104658F71F0F54EF00DEA11B /* Shader.cpp */; };
+		104658FE1F0F64BE00DEA11B /* Triangle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 104658FC1F0F64BE00DEA11B /* Triangle.cpp */; };
+		104659011F0F679200DEA11B /* Cube.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 104658FF1F0F679200DEA11B /* Cube.cpp */; };
+		10FFFA411F10739A00CCC7E3 /* Circle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 10FFFA3F1F10739A00CCC7E3 /* Circle.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		104658DE1F0F4D4E00DEA11B /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		104658E01F0F4D4E00DEA11B /* Polygon */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Polygon; sourceTree = BUILT_PRODUCTS_DIR; };
+		104658E31F0F4D4E00DEA11B /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		104658EB1F0F4D6200DEA11B /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
+		104658ED1F0F4D6700DEA11B /* IOKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOKit.framework; path = System/Library/Frameworks/IOKit.framework; sourceTree = SDKROOT; };
+		104658EF1F0F4D6D00DEA11B /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		104658F11F0F4D7300DEA11B /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		104658F31F0F4D8300DEA11B /* libglfw3.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libglfw3.a; path = ../../../../usr/local/lib/libglfw3.a; sourceTree = "<group>"; };
+		104658F51F0F4D8C00DEA11B /* libGLEW.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libGLEW.a; path = ../../../../usr/local/lib/libGLEW.a; sourceTree = "<group>"; };
+		104658F71F0F54EF00DEA11B /* Shader.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Shader.cpp; sourceTree = "<group>"; };
+		104658F81F0F54EF00DEA11B /* Shader.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Shader.hpp; sourceTree = "<group>"; };
+		104658FA1F0F5B0A00DEA11B /* Define.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Define.hpp; sourceTree = "<group>"; };
+		104658FB1F0F5C9600DEA11B /* Sprite.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Sprite.hpp; sourceTree = "<group>"; };
+		104658FC1F0F64BE00DEA11B /* Triangle.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Triangle.cpp; sourceTree = "<group>"; };
+		104658FD1F0F64BE00DEA11B /* Triangle.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Triangle.hpp; sourceTree = "<group>"; };
+		104658FF1F0F679200DEA11B /* Cube.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Cube.cpp; sourceTree = "<group>"; };
+		104659001F0F679200DEA11B /* Cube.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Cube.hpp; sourceTree = "<group>"; };
+		10FFFA3F1F10739A00CCC7E3 /* Circle.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Circle.cpp; sourceTree = "<group>"; };
+		10FFFA401F10739A00CCC7E3 /* Circle.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Circle.hpp; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		104658DD1F0F4D4E00DEA11B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				104658F61F0F4D8C00DEA11B /* libGLEW.a in Frameworks */,
+				104658F41F0F4D8300DEA11B /* libglfw3.a in Frameworks */,
+				104658F21F0F4D7300DEA11B /* CoreVideo.framework in Frameworks */,
+				104658F01F0F4D6D00DEA11B /* Cocoa.framework in Frameworks */,
+				104658EE1F0F4D6700DEA11B /* IOKit.framework in Frameworks */,
+				104658EC1F0F4D6200DEA11B /* OpenGL.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		104658D71F0F4D4E00DEA11B = {
+			isa = PBXGroup;
+			children = (
+				104658E21F0F4D4E00DEA11B /* Polygon */,
+				104658E11F0F4D4E00DEA11B /* Products */,
+				104658EA1F0F4D6100DEA11B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		104658E11F0F4D4E00DEA11B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				104658E01F0F4D4E00DEA11B /* Polygon */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		104658E21F0F4D4E00DEA11B /* Polygon */ = {
+			isa = PBXGroup;
+			children = (
+				104658E31F0F4D4E00DEA11B /* main.cpp */,
+				104658F71F0F54EF00DEA11B /* Shader.cpp */,
+				104658F81F0F54EF00DEA11B /* Shader.hpp */,
+				104658FA1F0F5B0A00DEA11B /* Define.hpp */,
+				104658FB1F0F5C9600DEA11B /* Sprite.hpp */,
+				104658FC1F0F64BE00DEA11B /* Triangle.cpp */,
+				104658FD1F0F64BE00DEA11B /* Triangle.hpp */,
+				104658FF1F0F679200DEA11B /* Cube.cpp */,
+				104659001F0F679200DEA11B /* Cube.hpp */,
+				10FFFA3F1F10739A00CCC7E3 /* Circle.cpp */,
+				10FFFA401F10739A00CCC7E3 /* Circle.hpp */,
+			);
+			path = Polygon;
+			sourceTree = "<group>";
+		};
+		104658EA1F0F4D6100DEA11B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				104658F51F0F4D8C00DEA11B /* libGLEW.a */,
+				104658F31F0F4D8300DEA11B /* libglfw3.a */,
+				104658F11F0F4D7300DEA11B /* CoreVideo.framework */,
+				104658EF1F0F4D6D00DEA11B /* Cocoa.framework */,
+				104658ED1F0F4D6700DEA11B /* IOKit.framework */,
+				104658EB1F0F4D6200DEA11B /* OpenGL.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		104658DF1F0F4D4E00DEA11B /* Polygon */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 104658E71F0F4D4E00DEA11B /* Build configuration list for PBXNativeTarget "Polygon" */;
+			buildPhases = (
+				104658DC1F0F4D4E00DEA11B /* Sources */,
+				104658DD1F0F4D4E00DEA11B /* Frameworks */,
+				104658DE1F0F4D4E00DEA11B /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Polygon;
+			productName = Polygon;
+			productReference = 104658E01F0F4D4E00DEA11B /* Polygon */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		104658D81F0F4D4E00DEA11B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = eewano;
+				TargetAttributes = {
+					104658DF1F0F4D4E00DEA11B = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 104658DB1F0F4D4E00DEA11B /* Build configuration list for PBXProject "Polygon" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 104658D71F0F4D4E00DEA11B;
+			productRefGroup = 104658E11F0F4D4E00DEA11B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				104658DF1F0F4D4E00DEA11B /* Polygon */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		104658DC1F0F4D4E00DEA11B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				104659011F0F679200DEA11B /* Cube.cpp in Sources */,
+				10FFFA411F10739A00CCC7E3 /* Circle.cpp in Sources */,
+				104658F91F0F54EF00DEA11B /* Shader.cpp in Sources */,
+				104658FE1F0F64BE00DEA11B /* Triangle.cpp in Sources */,
+				104658E41F0F4D4E00DEA11B /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		104658E51F0F4D4E00DEA11B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		104658E61F0F4D4E00DEA11B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		104658E81F0F4D4E00DEA11B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				"HEADER_SEARCH_PATHS[arch=*]" = /usr/local/include;
+				"LIBRARY_SEARCH_PATHS[arch=*]" = /usr/local/lib;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		104658E91F0F4D4E00DEA11B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		104658DB1F0F4D4E00DEA11B /* Build configuration list for PBXProject "Polygon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				104658E51F0F4D4E00DEA11B /* Debug */,
+				104658E61F0F4D4E00DEA11B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		104658E71F0F4D4E00DEA11B /* Build configuration list for PBXNativeTarget "Polygon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				104658E81F0F4D4E00DEA11B /* Debug */,
+				104658E91F0F4D4E00DEA11B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 104658D81F0F4D4E00DEA11B /* Project object */;
+}
