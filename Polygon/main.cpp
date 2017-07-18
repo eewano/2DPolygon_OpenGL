@@ -8,6 +8,7 @@
 #include "Cube.hpp"
 #include "Shader.hpp"
 #include "Circle.hpp"
+#include "Vec2.hpp"
 
 Shader shader;
 

@@ -1,6 +1,8 @@
 #ifndef Define_h
 #define Define_h
 
+#include "Vec2.hpp"
+
 #define V_BUFFER_SIZE 4
 #define PI 3.1415926
 #define DEG2RAD 0.0174532925
@@ -10,16 +12,6 @@ struct Vertex
 {
     float x, y;
     float r, g, b;
-};
-
-struct Vec2i
-{
-    int x, y;
-};
-
-struct Vec2f
-{
-    float x, y;
 };
 
 static Vec2i WINDOW_SIZE = { 800, 600 };

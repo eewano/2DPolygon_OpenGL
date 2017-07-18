@@ -33,6 +33,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		100628AA1F1DB958008B5346 /* Vec2.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Vec2.hpp; sourceTree = "<group>"; };
 		104658E01F0F4D4E00DEA11B /* Polygon */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Polygon; sourceTree = BUILT_PRODUCTS_DIR; };
 		104658E31F0F4D4E00DEA11B /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		104658EB1F0F4D6200DEA11B /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
@@ -101,6 +102,7 @@
 				104659001F0F679200DEA11B /* Cube.hpp */,
 				10FFFA3F1F10739A00CCC7E3 /* Circle.cpp */,
 				10FFFA401F10739A00CCC7E3 /* Circle.hpp */,
+				100628AA1F1DB958008B5346 /* Vec2.hpp */,
 			);
 			path = Polygon;
 			sourceTree = "<group>";

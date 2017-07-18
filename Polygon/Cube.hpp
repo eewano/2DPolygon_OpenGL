@@ -3,6 +3,7 @@
 
 #include <iostream>
 #include <GLFW/glfw3.h>
+#include "Vec2.hpp"
 #include "Define.hpp"
 #include "Shader.hpp"
 #include "Sprite.hpp"
